@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function About() {
@@ -12,7 +13,8 @@ export default function About() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Ir a <a href="/">Home</a>
+          {/* Ir a <a href="/">Home</a> */}
+          Ir a <Link href="/">home</Link>
         </h1>
 
         <p className={styles.description}>
