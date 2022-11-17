@@ -19,7 +19,7 @@ export default function About() {
 
         <h1 className={styles.title}>
           {/* Ir a <a href="/">Home</a> */}
-          Ir a <Link href="/">home</Link>
+          Ir a <Link href="/">Home</Link>
         </h1>
 
         <p className={styles.description}>
