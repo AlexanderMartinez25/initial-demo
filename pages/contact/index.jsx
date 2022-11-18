@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { MainLayout } from "../../components/layouts/MainLayout";
 
-export default function About() {
+export default function Contact() {
   return (
     <div className="container">
       <MainLayout>
